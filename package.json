@@ -1,6 +1,6 @@
 {
   "name": "guy-salmon",
-  "homepage": "https://sharondrury.github.io/guy-salmon-website/",
+  "homepage": "https://sharondrury.github.io/guy-site/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -18,7 +18,8 @@
     "react": "^19.2.0",
     "react-countup": "^6.5.3",
     "react-dom": "^19.2.0",
-    "react-transition-group": "^4.4.5"
+    "react-transition-group": "^4.4.5",
+    "react-visibility-sensor": "^5.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
