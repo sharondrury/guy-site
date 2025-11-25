@@ -122,12 +122,12 @@ a:hover {
 
 .numbers-container {
   max-width: 1200px;
-  margin: 30px auto;
+  margin: 30px 40px;
   color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
-  justify-items: center
+  justify-items: flex-start;
 }
 
 .counter {
@@ -140,6 +140,10 @@ h3 {
 }
 
 @media screen and (max-width: 760px) {
+  .nav-contents {
+    margin: 0 10px;  
+  }
+
   .hero-text-container {
     max-width: 300px;
     padding: 10px;
@@ -165,7 +169,6 @@ h3 {
 
   .numbers-container {
     padding: 10px;
-    text-align: center;
   }
   
   .counter {
@@ -174,6 +177,9 @@ h3 {
 }
 
 @media screen and (max-width: 960px) {
+  .nav-contents {
+     margin: 0 40px; 
+  }
   .nav-contents .p-menuitem-icon {
   color: #b13800;
   }

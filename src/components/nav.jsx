@@ -1,7 +1,5 @@
 import { Menubar } from "primereact/menubar";
 
-import cvPdf from "../assets/Sharon_Drury_2025_cv_blank.pdf";
-
 function Nav() {
     const items = [
       {
