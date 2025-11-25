@@ -1,3 +1,5 @@
+import cvPdf from "../assets/Sharon_Drury_2025_cv_blank.pdf";
+
 function Hero() {
   return (
     <>
@@ -10,10 +12,19 @@ function Hero() {
                 <h2>Experienced infrastructure engineer</h2>
               </div>
               <div>
-                <a href="" className="hero-btn left-btn">
+                <a
+                  href="https://www.linkedin.com/in/guysalmon"
+                  className="hero-btn left-btn"
+                  target="_blank"
+                >
                   Get in touch
                 </a>
-                <a href="" className="hero-btn right-btn">
+                <a
+                  href={cvPdf}
+                  className="hero-btn right-btn"
+                  target="_blank"
+                  download="Sharon_Drury_CV.pdf"
+                >
                   Download cv
                 </a>
               </div>

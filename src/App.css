@@ -32,6 +32,10 @@ body {
   border-radius: 3px;
 }
 
+.nav-contents .p-menubar-button {
+  color: white;
+}
+
 .nav-contents {
   max-width: 1200px;
   margin: 0 auto;
@@ -166,5 +170,14 @@ h3 {
   
   .counter {
     font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .nav-contents .p-menuitem-icon {
+  color: #b13800;
+  }
+  .nav-contents .p-menuitem-text {
+    color: #b13800;
   }
 }
