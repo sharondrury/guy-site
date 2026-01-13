@@ -1,6 +1,6 @@
 import cvPdf from "../assets/Sharon_Drury_2025_cv_blank.pdf";
 
-function Hero() {
+const hero = () => {
   return (
     <>
       <div className="hero-section">
@@ -8,10 +8,14 @@ function Hero() {
           <div className="hero-text">
             <div className="hero-text-container">
               <div>
-                <h1>Barry Egg Consultancy</h1>
-                <h2>Experienced infrastructure engineer</h2>
+                <h3 className="logo-heading">GS Consultancy</h3>
+                <h1 className="hero-heading">Guy Salmon Consultancy</h1>
+                <h2 className="hero-subheading">
+                  Experienced infrastructure engineer delivering resilient,
+                  scalable and secure IT environments.
+                </h2>
               </div>
-              <div>
+              <div className="contact-btns">
                 <a
                   href="https://www.linkedin.com/in/guysalmon"
                   className="hero-btn left-btn"
@@ -34,6 +38,6 @@ function Hero() {
       </div>
     </>
   );
-}
+};
 
-export default Hero;
+export default hero;

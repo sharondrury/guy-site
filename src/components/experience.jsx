@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import CountUp from "react-countup";
 
-function Experience() {
+const experience = () => {
   const [viewPortEntered, setViewPortEntered] = useState(false);
   const containerRef = useRef(null);
 
@@ -31,31 +31,22 @@ function Experience() {
   return (
     <>
       <div className="numbers-container" ref={containerRef}>
-        <div>
-          <h3>Years as a contractor</h3>
+        <div className="column-section column-one">
+          <h3>Company established in</h3>
+          <h2 className="counter">
+            {viewPortEntered ? (
+              <CountUp start={2000} end={2013} duration={2} />
+            ) : (
+              0
+            )}
+            +
+          </h2>
         </div>
-        <div>
+
+        <div className="column-section column-two">
           <h3>Years IT experience</h3>
-        </div>
-        <div>
-          <h3>Qualifications</h3>
-        </div>
-
-        <div>
           <h2 className="counter">
-            {viewPortEntered ? <CountUp start={0} end={15} duration={2} /> : 0}+
-          </h2>
-        </div>
-
-        <div>
-          <h2 className="counter">
-            {viewPortEntered ? <CountUp start={0} end={25} duration={2} /> : 0}+
-          </h2>
-        </div>
-
-        <div>
-          <h2 className="counter">
-            {viewPortEntered ? <CountUp start={0} end={5} duration={2} /> : 0}
+            {viewPortEntered ? <CountUp start={0} end={26} duration={2} /> : 0}+
           </h2>
         </div>
       </div>
@@ -63,4 +54,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default experience;
