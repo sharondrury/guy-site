@@ -365,6 +365,10 @@ h3 {
 }
 
 @media screen and (max-width: 760px) {
+  .floating-container {
+    display: none;
+  }
+
   .nav-contents {
     margin: 0 10px;  
   }
@@ -398,7 +402,7 @@ h3 {
     padding: 30px 40px;
   }
   .counter {
-    font-size: 40px;
+    font-size: 30px;
   }
   .tech-stack-grid {
   grid-template-columns: repeat(2, 1fr);
