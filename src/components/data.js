@@ -23,6 +23,7 @@ import backgroundImage6 from "../assets/bg-image6.jpg";
 // import file from "../assets/file.svg";
 
 import { FaRegFile, FaLinkedin } from "react-icons/fa";
+import guyCV from "../assets/GuySalmonNEW_CV_2026-web.pdf";
 
 
 export const logosData = [
@@ -90,9 +91,11 @@ export const contactIcons = [
   {
     icon: FaLinkedin,
     alt: "linkedIn icon",
+    link: "https://www.linkedin.com/in/guysalmon",
   },
   {
     icon: FaRegFile,
     alt: "file icon",
+    link: guyCV,
   },
 ];

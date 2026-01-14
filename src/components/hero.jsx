@@ -1,4 +1,4 @@
-import cvPdf from "../assets/Sharon_Drury_2025_cv_blank.pdf";
+import cvPdf from "../assets/GuySalmonNEW_CV_2026-web.pdf";
 
 const hero = () => {
   return (
@@ -27,7 +27,7 @@ const hero = () => {
                   href={cvPdf}
                   className="hero-btn right-btn"
                   target="_blank"
-                  download="Sharon_Drury_CV.pdf"
+                  download="GuySalmonNEW_CV_2026-web.pdf"
                 >
                   Download cv
                 </a>

@@ -7,13 +7,19 @@ const floatingMenu = () => {
         {contactIcons.map((item, index) => {
           const IconComponent = item.icon;
           return (
-            <IconComponent
+            <a
+              href={item.link}
+              target="_blank"
               key={index}
-              className="contact-icon"
-              color="#df732b"
-              size={32}
               aria-label={item.alt}
-            />
+            >
+              <IconComponent
+                key={index}
+                className="contact-icon"
+                color="#df732b"
+                size={32}
+              />
+            </a>
           );
         })}
       </div>
